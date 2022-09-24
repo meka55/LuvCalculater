@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initClicker()
+
+
+
     }
     private fun initClicker() {
         with(binding) {
